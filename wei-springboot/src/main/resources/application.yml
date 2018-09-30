@@ -1,0 +1,10 @@
+server:
+  port: 8000
+spring:
+  profiles:
+    active: test
+wei:
+  name_cn: 测试
+  age: ${random.int[1,300]}
+  user_id: ${random.int}
+  desc: Dear All, name:${wei.name_cn}, user_id:${wei.user_id}, age:${wei.age}

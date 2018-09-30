@@ -1,0 +1,6 @@
+wei:
+  name_cn: 测试
+  name_en: SpringBoot-Tester
+  age: ${random.int[1,300]}
+  user_id: ${random.int}
+  desc: Dear All, name:${name_en}, user_id:${user_id}, age:${age}
